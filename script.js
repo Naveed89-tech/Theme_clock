@@ -70,7 +70,9 @@ function setTime() {
     0,
     360
   )}deg)`;
-  timeEl.innerHTML = `${hourForClock}:${minute < 10 ? 0 : minute} ${ampm}`;
+  timeEl.innerHTML = `${hourForClock}:${
+    minute < 10 ? `0${minute}` : minute
+  } ${ampm}`;
   dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`;
 }
 function scale(number, inMin, inMax, outMin, outMax) {
@@ -78,5 +80,3 @@ function scale(number, inMin, inMax, outMin, outMax) {
 }
 setTime();
 setInterval(setTime, 1000);
-
-console.log(new Date());
