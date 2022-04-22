@@ -27,8 +27,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Naveed89-tech/interactiverating](https://github.com/Naveed89-tech/interactiverating)
-- Live Site URL: [https://interactiveratingcomponentnew.netlify.app/](https://interactiveratingcomponentnew.netlify.app/)
+- Solution URL: [https://github.com/Naveed89-tech/Theme_clock](https://github.com/Naveed89-tech/Theme_clock)
+- Live Site URL: [https://analogcloktheme.netlify.app/](https://analogcloktheme.netlify.app/)
 
 ## My process
 
